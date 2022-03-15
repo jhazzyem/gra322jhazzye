@@ -1,0 +1,11 @@
+.links {
+    display: flex;
+  }
+  
+  .drinks {
+    margin-left: auto;
+  }
+  
+  .links li {
+    padding: 1rem;
+  }
