@@ -20,3 +20,7 @@ grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 128
 .grid > *{
     grid-column: main;
 }
+
+header{
+    background-color: var(--gray-dark)
+}
