@@ -64,39 +64,12 @@ html {
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec laoreet turpis. Nullam vehicula tellus nec est cursus fermentum. Ut porta magna quis odio gravida, ac posuere tellus placerat. Aenean non nulla eget magna iaculis egestas a vitae mi. Maecenas eu ornare ex, ut lobortis sapien. Nam tristique, arcu a hendrerit dapibus, quam lorem porta libero, sed convallis odio elit at nisi. Mauris consectetur sit amet massa sit amet varius. Etiam interdum mattis tellus, vitae consequat nisl efficitur id. Donec scelerisque massa in elit semper condimentum. Nulla mauris lorem, efficitur nec sem nec, porta luctus nisi.</p>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
-
-
       tr {
         border-bottom: 1px solid black;
       }
       
       th {
-        background: #f2f2f2;
+        background: #eeb13f;
         padding: 1rem;
         text-align: left;
       }
@@ -126,3 +99,8 @@ section {
 #section-1 {
   margin-top: 5rem;
 }
+tr {
+        border-bottom: 1px solid black;
+      }
+      
+      
