@@ -40,6 +40,57 @@ html {
         width: 100%;
       }
       
+      <header>
+      <nav>
+        <ul>
+          <li><a href="#About">About</a></li>
+          <li><a href="#section-2">Section 2</a></li>
+          <li><a href="#section-3">Section 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="section-1">
+      <h2>Section 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec laoreet turpis. Nullam vehicula tellus nec est cursus fermentum. Ut porta magna quis odio gravida, ac posuere tellus placerat. Aenean non nulla eget magna iaculis egestas a vitae mi. Maecenas eu ornare ex, ut lobortis sapien. Nam tristique, arcu a hendrerit dapibus, quam lorem porta libero, sed convallis odio elit at nisi. Mauris consectetur sit amet massa sit amet varius. Etiam interdum mattis tellus, vitae consequat nisl efficitur id. Donec scelerisque massa in elit semper condimentum. Nulla mauris lorem, efficitur nec sem nec, porta luctus nisi.</p>
+    </section>
+    
+    <section id="section-2">
+      <h2>Section 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec laoreet turpis. Nullam vehicula tellus nec est cursus fermentum. Ut porta magna quis odio gravida, ac posuere tellus placerat. Aenean non nulla eget magna iaculis egestas a vitae mi. Maecenas eu ornare ex, ut lobortis sapien. Nam tristique, arcu a hendrerit dapibus, quam lorem porta libero, sed convallis odio elit at nisi. Mauris consectetur sit amet massa sit amet varius. Etiam interdum mattis tellus, vitae consequat nisl efficitur id. Donec scelerisque massa in elit semper condimentum. Nulla mauris lorem, efficitur nec sem nec, porta luctus nisi.</p>
+    </section>
+    
+    <section id="section-3">
+      <h2>Section 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec laoreet turpis. Nullam vehicula tellus nec est cursus fermentum. Ut porta magna quis odio gravida, ac posuere tellus placerat. Aenean non nulla eget magna iaculis egestas a vitae mi. Maecenas eu ornare ex, ut lobortis sapien. Nam tristique, arcu a hendrerit dapibus, quam lorem porta libero, sed convallis odio elit at nisi. Mauris consectetur sit amet massa sit amet varius. Etiam interdum mattis tellus, vitae consequat nisl efficitur id. Donec scelerisque massa in elit semper condimentum. Nulla mauris lorem, efficitur nec sem nec, porta luctus nisi.</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
       tr {
         border-bottom: 1px solid black;
       }
@@ -57,4 +108,21 @@ html {
       .price {
         font-weight: bold;
       }
-      
+      html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+section {
+  scroll-margin-top: 7rem;
+}
+#section-1 {
+  margin-top: 5rem;
+}
