@@ -1,0 +1,9 @@
+.current-page {
+  font-weight: bold;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
